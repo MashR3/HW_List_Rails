@@ -1,0 +1,38 @@
+#cssit {
+	background-image: url(lbg1.jpg);
+	background-size: cover;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	border: solid 10px #2b0d9b;
+	height: 50em;
+}
+
+body {
+	background-image: url(bg1.jpg);
+}
+
+h1 {
+	font-size: 50px;
+	color: #c67d11;
+	font-family: cursive;
+}
+
+#tasktit {
+	font-size: 27px;
+	text-decoration: underline;
+	font-family: cursive;
+	margin-bottom: 9px;
+}
+
+a {
+	border: solid 2px black;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 3px;
+    background-color: aliceblue;
+}
+
+.dele {
+	color: red;
+}

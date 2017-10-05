@@ -1,2 +1,9 @@
-<h1>Tasks#show</h1>
-<p>Find me in app/views/tasks/show.html.erb</p>
+<h1>Specific Item</h1>
+
+<%= render @task %>
+
+<br>
+
+<%= link_to "Back to List", tasks_path %>
+
+<p class="dele"><%= link_to "Destroy", @task, method: :delete, data: { confirm: "Are you sure?" } %></p>

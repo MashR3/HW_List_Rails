@@ -1,0 +1,8 @@
+<div>
+
+  <p id="tasktit"> <strong><%= task.item %></strong></p>
+  
+  <%= link_to "Show Task", task if action_name == "index" %> 
+  <%= link_to "Edit Page", edit_task_path(task) if action_name == "show" %>
+  <hr>
+</div>
